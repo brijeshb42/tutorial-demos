@@ -1,0 +1,33 @@
+# Site settings
+## Change the values as needed.
+title: Bitwiser Demos
+email: brijeshb42@gmail.com
+description: > # this means to ignore newlines until "keywords:"
+  Contains demo pages for the tutorials on main website.
+keywords: "tutorial, demo, javascript, python"
+url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+paginate: 5
+paginate_path: "page:num"
+# Build settings
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
+links:
+  facebook: brijeshb42
+  twitter: brijeshb42
+  email: brijeshb42@gmail.com
+  github: brijeshb42/tutorial-demos/
+exclude:
+  - bower_components
+  - README.md
+full_name: Brijesh
+
+##set this to enable disqus commenting
+disqus: bitwiser
+
+##set this to enable google analytics
+ga_id: UA-47902363-1
+ga_domain: bitwiser.in
