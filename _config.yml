@@ -5,8 +5,8 @@ email: brijeshb42@gmail.com
 description: > # this means to ignore newlines until "keywords:"
   Contains demo pages for the tutorials on main website.
 keywords: "tutorial, demo, javascript, python"
-url: "" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://bitwiser.in/tutorial-demos" # the base hostname & protocol for your site
+baseurl: "http://bitwiser.in/tutorial-demos" # the subpath of your site, e.g. /blog/
 paginate: 5
 paginate_path: "page:num"
 # Build settings
