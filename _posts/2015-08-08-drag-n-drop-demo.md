@@ -13,6 +13,7 @@ title: 'HTML5 drag and drop demo'
     background: #00CC71;
   }
 </style>
+<a href="http://bitwiser.in/2015/08/08/creating-dropzone-for-drag-drop-file.html" class="mui-btn mui-btn-primary mui-btn-lg">Back to Tutorial</a>
 <div class="demo-droppable">
   <p>Drag files here or click to upload</p>
 </div>
@@ -56,6 +57,7 @@ title: 'HTML5 drag and drop demo'
       ele.addEventListener('drop', function(e) {
         e.preventDefault();
         e.stopPropagation();
+        ele.classList.remove('dragover');
         triggerCallback(e, callback);
       });
       
@@ -68,6 +70,7 @@ title: 'HTML5 drag and drop demo'
   })(this);
   (function(window) {
     makeDroppable(window.document.querySelector('.demo-droppable'), function(files) {
+      console.log(files);
       var output = document.querySelector('.output');
       output.innerHTML = '';
       for(var i=0; i<files.length; i++) {
