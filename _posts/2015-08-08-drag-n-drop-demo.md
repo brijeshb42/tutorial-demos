@@ -13,7 +13,6 @@ title: 'HTML5 drag and drop demo'
     background: #00CC71;
   }
 </style>
-<a href="http://bitwiser.in/2015/08/08/creating-dropzone-for-drag-drop-file.html" class="mui-btn mui-btn-primary mui-btn-lg">Back to Tutorial</a>
 <div class="demo-droppable">
   <p>Drag files here or click to upload</p>
 </div>
